@@ -15,4 +15,10 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <organization>
+  	<name>Soye, Inc.</name>
+  </organization>
+  <scm>
+  	<url>https://github.com/lilsoye4u/incognito.git</url>
+  </scm>
 </project>
