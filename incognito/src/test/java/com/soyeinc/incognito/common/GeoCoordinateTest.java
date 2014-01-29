@@ -4,6 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import org.powermock.api.easymock.PowerMock;
+
 public class GeoCoordinateTest {
 
 	@Test
@@ -33,7 +35,8 @@ public class GeoCoordinateTest {
 
 	@Test
 	public void testGetDecimalValue() {
-		fail("Not yet implemented");
+		
+		GeoCoordinate geo = PowerMock.createMock(GeoCoordinate.class);
 	}
 
 }
